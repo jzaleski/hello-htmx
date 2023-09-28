@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Hello HTMX"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Hello HTMX</title>
+    <script defer src="https://unpkg.com/htmx.org@1.9.6"></script>
+  </head>
+  <body>
+    <button hx-post="/api/clicked" hx-swap="outerHTML">Click Me!</button>
+  </body>
+</html>

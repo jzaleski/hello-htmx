@@ -1,0 +1,21 @@
+{
+  "name": "hello-htmx",
+  "repository": "https://github.com/jzaleski/hello-htmx",
+  "version": "0.0.1",
+  "description": "Hello HTMX",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ext css,html,ico,js,json --watch . --watch public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
